@@ -169,7 +169,7 @@ def run():
         plt.close(fig)
 
     # Carregar dados e realizar o pré-processamento
-    df = pd.read_excel(r"C:\Users\leosz\Desktop\NHANES_streamlit\Streamlit_Nhanes\dados_demograficos_streamlit1.xlsx")
+    df = pd.read_excel(r"Streamlit_Nhanes/dados_demograficos_streamlit1.xlsx")
     
     # Selecione a doença e o modelo a partir das seleções do usuário
     model_name = st.selectbox("Choose the model", ["Logistic Regression", "Random Forest", "Decision Tree", "SVM", "XGBoost"])

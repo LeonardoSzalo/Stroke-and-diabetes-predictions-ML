@@ -26,7 +26,7 @@ def run():
     """)
 
     # Carregar os dados
-    df = pd.read_excel(r"C:\Users\leosz\Desktop\NHANES_streamlit\Streamlit_Nhanes\dados_demograficos_streamlit1.xlsx")
+    df = pd.read_excel(r"Streamlit_Nhanes/dados_demograficos_streamlit1.xlsx")
     color_palette = ['#023047', '#e85d04', '#0077b6', '#0096c7', '#ff9c33']
     sns.set_palette(sns.color_palette(color_palette))
 

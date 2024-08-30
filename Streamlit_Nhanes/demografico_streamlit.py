@@ -13,7 +13,7 @@ def run():
     pd.set_option('display.max_columns', None)
 
     # Carregamento dos dados
-    df_concatenado = pd.read_excel(r"C:\Users\leosz\Desktop\NHANES_streamlit\Streamlit_Nhanes\dados_demograficos_streamlit1.xlsx")
+    df_concatenado = pd.read_excel(r"Streamlit_Nhanes/dados_demograficos_streamlit1.xlsx")
 
     # Função para criar os gráficos
     def create_plot(data, x_col, hue_col=None, plot_type='count', title='', xlabel='', ylabel='', tick_labels=None, rotation=0, kde=False, bins=30):
